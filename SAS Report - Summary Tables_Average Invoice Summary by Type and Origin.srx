@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SASReport applicationName="ODS" applicationVersion="9.4" dateCreated="2020-08-30T10:35:35-06:00" dateModified="2020-08-30T15:28:12-06:00" version="1.3" xmlns:style="http://www.sas.com/sasreportmodel/styles" xmlns:ods="http://www.sas.com/sasreportmodel/ods">
+	<View style:scheme="HtmlBlue" style:style="body">
+		<PageSetup size="LETTER" height="11in" width="8.5in" orientation="PORTRAIT" marginLeft="1in" marginRight="1in" marginTop="1in" marginBottom="1in" startingNumber="1">
+			<PageHeader>
+				<Text style:textAlign="right">
+					<GriddedConstraint />
+					<Span><Date style:textAlign="right">2020-08-30T10:35:35-06:00</Date>   <PageNumber style:textAlign="right"></PageNumber></Span>
+				</Text>
+			</PageHeader>
+		</PageSetup>
+		<Section>
+			<Section name="Tabulate_1">
+				<PageSetup size="LETTER" height="11in" width="8.5in" orientation="PORTRAIT" marginLeft="1in" marginRight="1in" marginTop="1in" marginBottom="1in">
+				</PageSetup>
+				<Section style:pageBreakAfter="always">
+					<Header style:paddingBottom="10px">
+						<GriddedLayout rowGutter="10px" columnGutter="10px" />
+						<Text style:style="systemtitle" style:textAlign="center" style:verticalAlign="middle">
+							<GriddedConstraint column="1" />
+							<Span style:style="systemtitle" style:textAlign="center">Average Invoice Sumamry by Type and Origin</Span>
+						</Text>
+					</Header>
+					<Body style:paddingBottom="10px">
+						<GriddedLayout rowGutter="10px" />
+						<Table cellPadding="5px" data="model#1_1_1_0" style:style="table" name="Cross-tabular summary report,Table 1">
+							<GriddedConstraint />
+							<Columns>
+								<Columns>
+									<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="middle">Origin</Label>
+									<Columns>
+										<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="middle">Asia</Label>
+										<Columns>
+											<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="middle">Invoice</Label>
+											<Column variable="ColVar1">
+												<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="middle">Average</Label>
+												<Cell style:style="Data" style:textAlign="right" style:verticalAlign="bottom">
+												</Cell>
+											</Column>
+										</Columns>
+									</Columns>
+									<Columns>
+										<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="middle">Europe</Label>
+										<Columns>
+											<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="middle">Invoice</Label>
+											<Column variable="ColVar2">
+												<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="middle">Average</Label>
+												<Cell style:style="Data" style:textAlign="right" style:verticalAlign="bottom">
+												</Cell>
+											</Column>
+										</Columns>
+									</Columns>
+									<Columns>
+										<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="middle">USA</Label>
+										<Columns>
+											<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="middle">Invoice</Label>
+											<Column variable="ColVar3">
+												<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="middle">Average</Label>
+												<Cell style:style="Data" style:textAlign="right" style:verticalAlign="bottom">
+												</Cell>
+											</Column>
+										</Columns>
+									</Columns>
+								</Columns>
+								<Columns>
+									<Label position="top" rowSpan="2" style:style="header" style:textAlign="center" style:verticalAlign="middle">Total</Label>
+									<Columns>
+										<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="middle">Invoice</Label>
+										<Column variable="ColVar4">
+											<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="middle">Average</Label>
+											<Cell style:style="Data" style:textAlign="right" style:verticalAlign="bottom">
+											</Cell>
+										</Column>
+									</Columns>
+								</Columns>
+							</Columns>
+							<Rows>
+								<Row>
+									<Label position="top" style:style="rowheader" style:textAlign="left" style:verticalAlign="top">Type</Label>
+									<Label position="left" style:style="rowheader" style:textAlign="left" style:verticalAlign="top">Hybrid</Label>
+								</Row>
+								<Row>
+									<Label position="left" style:style="rowheader" style:textAlign="left" style:verticalAlign="top">SUV</Label>
+								</Row>
+								<Row>
+									<Label position="left" style:style="rowheader" style:textAlign="left" style:verticalAlign="top">Sedan</Label>
+								</Row>
+								<Row>
+									<Label position="left" style:style="rowheader" style:textAlign="left" style:verticalAlign="top">Sports</Label>
+								</Row>
+								<Row>
+									<Label position="left" style:style="rowheader" style:textAlign="left" style:verticalAlign="top">Truck</Label>
+								</Row>
+								<Row>
+									<Label position="left" style:style="rowheader" style:textAlign="left" style:verticalAlign="top">Wagon</Label>
+								</Row>
+								<Row>
+									<Label position="left" style:style="rowheader" style:textAlign="left" style:verticalAlign="top">Total</Label>
+								</Row>
+							</Rows>
+						</Table>
+					</Body>
+					<Footer style:style="systemfooter" style:paddingBottom="10px" style:textAlign="center">
+						<GriddedLayout rowGutter="10px" columnGutter="10px" />
+						<Text style:style="systemfooter" style:textAlign="center" style:verticalAlign="middle">
+							<GriddedConstraint column="1" />
+							<Span style:style="systemfooter" style:textAlign="center">Generated by the SAS System ('Local', X64_8PRO) on August 30, 2020 at 10:35:35 AM</Span>
+						</Text>
+					</Footer>
+				</Section>
+			</Section>
+		</Section>
+	</View>
+	<Data refreshPolicy="embedded">
+		<IQData type="2DEmbedded" name="model#1_1_1_0">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="ColVar1">
+					</Variable>
+					<Variable encoding="text" name="ColVar2">
+					</Variable>
+					<Variable encoding="text" name="ColVar3">
+					</Variable>
+					<Variable encoding="text" name="ColVar4">
+					</Variable>
+				</Variables>
+				<CSV>
+"18429.33", ".", ".", "18429.33";
+"26916.48", "44291.30", "31267.84", "31625.35";
+"20788.31", "39696.31", "23619.04", "27389.80";
+"29620.94", "65275.09", "41144.67", "48473.16";
+"18801.50", ".", "24524.38", "22616.75";
+"21352.27", "35003.58", "20635.86", "26645.63";
+"22602.18", "44395.08", "25949.34", "30014.70";</CSV>
+			</EmbeddedData>
+		</IQData>
+	</Data>
+	<style:CSSScheme file="SAS Report - Summary Tables_Average Invoice Summary by Type and Origin_files/HtmlBlue.css" name="HtmlBlue"></style:CSSScheme>
+</SASReport>
